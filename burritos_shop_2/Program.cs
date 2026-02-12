@@ -150,9 +150,7 @@ class Program
 
         while (profit <= 0)
         {
-            revenue = itemsold * unitprice;
-            cost = mincost + itemsold * unitcost;
-            profit = revenue - cost;
+            Console.WriteLine($"After selling {itemsold} burritos: profit {profit:F2}.");
 
             itemsold++; // itemsold = itemsold+1/
             revenue = itemsold * unitprice;
